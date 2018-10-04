@@ -1,9 +1,12 @@
 /*
 * @Author: barry
 * @Date:   2018-09-28 11:15:07
-* @Last Modified by:   barry
-* @Last Modified time: 2018-09-28 12:57:46
+* @Last Modified by:   barry_g
+* @Last Modified time: 2018-10-04 10:18:24
 */
+/**
+ * 快速排序
+ */
 #include <stdio.h>
 int a[10] = {6,1,2,7,9,3,4,5,10,8};
 void swap(int *a,int *b){
