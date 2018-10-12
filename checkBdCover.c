@@ -2,14 +2,14 @@
 * @Author: barry_g
 * @Date:   2018-10-04 10:24:29
 * @Last Modified by:   barry_g
-* @Last Modified time: 2018-10-04 15:12:40
+* @Last Modified time: 2018-10-11 21:17:31
 */
 /**
  * 棋盘覆盖问题
  */
 #include <stdio.h>
 #include <stdlib.h>
-#define SIZE 4
+#define SIZE 8
 int checkBoard[SIZE][SIZE];
 //产生特殊格子
 int randRow = rand()%SIZE;
